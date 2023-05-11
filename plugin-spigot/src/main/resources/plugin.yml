@@ -1,0 +1,8 @@
+name: plugin-spigot
+version: '${project.version}'
+main: xyz.larkyy.worldagechanger.pluginspigot.WorldAgeChanger
+api-version: 1.19
+commands:
+  worldagechanger:
+    aliases:
+      - wac
