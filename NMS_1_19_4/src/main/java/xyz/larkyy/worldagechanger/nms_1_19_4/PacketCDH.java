@@ -40,7 +40,6 @@ public class PacketCDH extends ChannelDuplexHandler {
                     time,
                     true
             );
-            Bukkit.broadcastMessage("Setting the age!");
         }
         super.write(ctx, packetObj, promise);
     }
